@@ -17,6 +17,7 @@ h1{
 }
 #w2{
     font-size: 40px;
+    color: #FF9933;
 }
 h2{
 
@@ -174,6 +175,7 @@ div.content{
 #a3{
     float: right;
     color:#fff;
+    background-color: #FF9933;
     border: 3px solid white;
     border-radius: 3px;
     margin-right: 10px;
@@ -181,11 +183,11 @@ div.content{
     padding: 10px;
     padding-top: 10px;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 #a3:hover{
-    background-color: white;
-    color:black;
+    background-color: #000080;
+    /* color:black; */
 }
 #a4{
     text-align: center;
@@ -304,4 +306,18 @@ a:hover {
 .fa {
   margin-right: 6px;
   margin-left: 16px;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  filter: brightness(90%);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
